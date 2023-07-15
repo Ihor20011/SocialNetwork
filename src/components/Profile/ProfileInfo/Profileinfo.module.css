@@ -1,0 +1,28 @@
+
+ .batmanlogo{
+     height: 300px;
+     width: 1080px;
+ }
+ .card{
+    padding: 10px;
+     height: 200px;
+     width: 200px;
+     position: relative;
+     outline-offset: -10px;
+     overflow: hidden;
+     isolation: isolate;
+ }
+ .card__img{
+     object-fit: cover;
+     transition: transform .25s;
+     z-index: -1;
+     width: 80px;
+     height: 80px;
+     
+ }
+ .card:hover .card__img{
+     transform: scale(1.2);
+ }
+ .block{
+    padding-left: 20px;
+ }

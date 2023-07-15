@@ -1,0 +1,21 @@
+.nav{
+  cursor: pointer;
+  font-size: 18px;
+  padding: 20px;
+  grid-area: n;
+  background-color:rgb(150, 42, 42);
+  padding: 20px;
+  }
+  .item{
+    margin-top: 10px;
+  }
+  .item a{
+    color: white;
+    text-decoration: none;
+
+  }
+  .item a.active{
+    color: rgb(12, 11, 11);
+  }
+  
+ 

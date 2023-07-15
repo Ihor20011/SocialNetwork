@@ -1,0 +1,29 @@
+.photo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 120px;
+    
+}
+.logo{
+    font-size: 35px;
+    color: white;
+}
+.color{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(1, 226, 1);
+    border-radius: 50%;
+}
+.friend{
+    color: white;
+
+}
